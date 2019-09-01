@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { easePolyOut } from "d3-ease";
 
+import { easePolyOut } from "d3-ease";
 import Animate from "react-move/Animate";
 
 class Stripes extends Component {
@@ -27,7 +27,7 @@ class Stripes extends Component {
           timing: { delay: stripe.delay, duration: 200, ease: easePolyOut },
           events: {
             end() {
-              console.log("anmation finished");
+              console.log("animation finished");
             }
           }
         }}
