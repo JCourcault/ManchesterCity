@@ -10,7 +10,7 @@ const Routes = props => {
   return (
     <Layout>
       <Switch>
-        <Route exact component={Home} path="/" />
+        <Route exact path="/" component={Home} />
       </Switch>
     </Layout>
   );
